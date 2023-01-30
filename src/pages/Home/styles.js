@@ -40,6 +40,12 @@ export const Menu = styled.ul`
   padding-top: 6.4rem;
   text-align: center;
 
+  > button {
+    &:first-child {
+      margin-bottom: 2.4rem;
+    }
+  }
+
   > li {
     margin-bottom: 2.4rem;
   }
